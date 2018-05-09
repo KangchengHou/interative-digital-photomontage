@@ -1,0 +1,39 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{minted}
+        
+\author{魏天昊 \quad 侯康成 \quad 王书琪}
+\date{\today}
+\title{实验报告}
+    
+    
+\newcommand{\pic}[2] {
+    \begin{figure}[H]
+\centering
+\includegraphics[width=.6\linewidth]{./img/#1}
+\caption{#2}
+\end{figure}
+}
+    
+    
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{介绍}
+我们实现的是xxx，我们使用了JS作为前端，Cpp作为后端，这样结合了Cpp的速度以及JS交互的方便性。
+
+\section{实验内容}
+实现稀疏矩阵、高斯塞达尔迭代以及共轭梯度。
+
+% \inputminted[firstline=11, lastline=31, breaklines, frame=lines, tabsize=2] {cpp}{./code/main.cpp}
+
+\end{document}
+    
